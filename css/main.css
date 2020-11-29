@@ -1,0 +1,259 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	color:black;
+}
+body{
+	font-family: 'Big Shoulders Inline Text', cursive;
+	background-color:  #FFFFFA;
+	min-width: 100%;
+}
+
+.header{
+	width: 100%;
+	height: 90px;
+	background-color: #101010;
+	display: table;	
+	flex: contain;
+}
+
+.belső_header{
+	width: 30%;
+	height: 100%;
+	display: block;
+	margin: 0 auto;
+	background-color: orange;
+	float:left;
+}
+.logó{
+	height: 100%;
+	max-width: 100%;
+	float: left; 
+}
+.belső_header h1{
+	color:white;
+	min-height: max-content;
+	max-height: 100%;
+	margin-top: 5%;		
+	margin-left: 22%;
+	margin-right: 10%;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+
+}
+
+.fejlécmenü{
+	float: to 1000px;
+	height: 100%;
+}
+.fejlécmenü a{
+	height: 100%;
+	display: table; 
+	float: left;
+	color: white;
+	min-width: max-content;
+	padding-left: 5%;
+	padding-top:30px;
+}
+.aláhúzás{
+	border-bottom: solid 2px white;
+}
+
+.fejlécmenü a:hover{
+	cursor: pointer;
+	color:#F70D1A;
+	transition: all ease-in-out 300ms;
+}
+
+.Profilkép{
+	margin-top: 3%;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-bottom: 2%;
+	border: solid #F9966B 3px;
+	border-left: solid white 10px;
+	max-width: 16%;
+	border-radius: 300px;
+}
+span {
+ 	font-family: 'Big Shoulders Inline Text', cursive;
+	font-family: 'Karla', sans-serif;
+ 	font-size: 110%;
+ 	margin-right: 15px;
+ 	margin-top: 7%;
+ 	max-width: 20%;
+ 	font-size: 160%;
+ 	display: inline-block;
+ 	margin-bottom: 3px;
+ 	border-bottom: solid thin white;
+	font-style: bold;
+ }
+
+ h4{
+ 	margin-left: 8%;
+ 	font-family: font-family: 'Big Shoulders Inline Text', cursive;
+	font-family: 'Karla', sans-serif; 	
+
+ }
+ .háttér{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-image: url(https://i.pinimg.com/564x/fa/21/eb/fa21ebba051dd421e1c5b71adf130c89.jpg);
+ 	background-size: cover;
+ 	background-position: top center;
+ 	height: 100vh;
+ 	opacity: 0.5;
+ }
+
+.cím{
+	display: block;
+	padding-top: 10%;
+	padding-left: 4%;
+	max-width: 11%;
+	font-size: 130%;
+	font-family: arial;
+	font-style: bold;
+	border-bottom: solid thin white;
+	vertical-align: center;
+	margin: 0;
+}
+.JobboldalSzöveg{
+	display: inline-block;
+	max-width: 60%;
+	vertical-align: top;
+	padding-top: 1.7%;
+	font-size: 120%;
+	padding-left: 3%;
+	margin-right: 10%;
+	margin-bottom: 3%;
+	font-family: font-family: 'Big Shoulders Inline Text', cursive;
+	font-family: 'Karla', sans-serif;
+}
+.JobboldalKép{
+	display: inline-block;
+	max-width: 24%;
+	margin-top: 6.5%;
+	margin-left: 2%;
+	margin-bottom: 11%;
+	float: left;
+	border-radius: 8px;
+	border: solid thin white;
+}
+.cím2{
+	display: block;
+	padding-top: 15%;
+	padding-left: 4%;
+	max-width: 11%;
+	font-size: 130%;
+	font-family: arial;
+	font-style: bold;
+	border-bottom: solid thin white;
+	vertical-align: center;
+}
+.oldalszám{
+	font-size: 27px;
+	font-family: impact;
+	display: block;
+	color:white;
+	opacity: 0.7;
+	float: center;
+	padding-right: 48vw;
+	margin-bottom: 200px;
+}
+.stílus{
+	font-family: font-family: 'Big Shoulders Inline Text', cursive;
+	font-family: 'Karla', sans-serif;
+	display: flex;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-bottom: 120px;
+	margin-top: 9vw;
+	font-size: 10vw;
+	max-height: 500%;
+	font-family: 'Permanent Marker', cursive;
+	color: white;
+	opacity: 0.7;
+}
+
+
+h3{
+	font-family: 'Permanent Marker', cursive;
+	display: :inline-block
+	max-width:20%;
+	float: left;
+	margin-top: 5%;
+	margin-left: 3%;
+	border-bottom: solid white thin; 
+}
+p{
+	display: inline-block;
+	float: right;
+	margin-top: 4%;
+	max-width: 70%;
+	font-family: 'Permanent Marker', cursive;
+}
+
+.PaksKép{
+	display: inline-block;
+	max-width: 24%;
+	margin-top: 6.5%;
+	margin-left: 2%;
+	vertical-align: left;
+	margin-bottom: 11%;
+	border-radius: 8px;
+	border: thin solid white;
+}
+.PaksSzöveg{
+	display: inline-block;
+	max-width: 50%;
+	vertical-align: top;
+	padding-top: 1.7%;
+	font-size: 120%;
+	padding-left: 3%;
+	margin-right: 10%;
+	margin-bottom: 3%;
+	font-family: font-family: 'Big Shoulders Inline Text', cursive;
+	font-family: 'Karla', sans-serif;
+}
+.sor{
+	display: table;
+}
+
+.JobboldalKép:hover{
+	border-color: red;
+	transition: 250ms;
+}
+.PaksKép:hover{
+	border-color:red;
+	transition: 250ms;
+}
+.tábla1{
+	display: table;
+	margin-top: 3%;
+	margin-left: 2%;
+	margin-right: 3%;
+}
+.EredetiTervCím{
+display: inline-block;
+}
+.rajz{
+	max-width: 25%;
+	display: inline-block;
+	float: left;
+	border: thin solid white;
+	border-radius: 8px;
+}
+.rajz:hover{
+	border-color:red;
+	transition: 250ms;
+}
+
+.EredetiTerv{
+	vertical-align: top;
+	display: inline-block;
+	font-size: 100%;
+}
